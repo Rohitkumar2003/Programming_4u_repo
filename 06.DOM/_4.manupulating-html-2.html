@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <style>
+            
+            div{ 
+                background-color: red;
+                padding: 20px;
+            }
+           
+            p {
+                border: 2px solid black;
+                padding: 5px;
+            }
+            </style>
+
+    
+            <div class="box" title="this is div"> div he ye</div>
+
+
+    <script >
+
+
+
+// const div = document.querySelector('div')
+// const ele = document.createElement('p');
+
+// ele.innerText = 'New para Element';
+// div.append(ele)
+
+// const alpha = document.querySelector('#alpha');
+
+
+
+// alpha.style.backgroundColor = "green"
+
+// let parentNode = alpha.parentNode
+// console.log(parentNode)
+// parentNode.appendChild(ele)
+
+// let newElement = document.createElement('div');
+// newElement.innerText = "Hey EveryOne";
+// parentNode.replaceChild(newElement, alpha)
+
+// const a = document.querySelector('div');
+// const newElement = document.createElement('p');
+// newElement.innerText = "Some get data"
+// a.append(newElement)
+
+
+
+const div = document.querySelector('.box')
+div.setAttribute('class','random Value');
+console.log(div.attributes);
+console.log(div.attributes['class']);
+console.log(div.attributes.class.nodeValue);
+
+
+
+    </script>
+</body>
+</html>

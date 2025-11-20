@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+            font-size: x-large;
+        }
+
+        .grand-parent {
+            padding: 100px;
+            background-color: black;
+        }
+
+        .parent {
+            margin: 70px;
+            padding:70px;
+            background-color: brown;
+
+        }
+        .child {
+            margin: 50px;
+            padding:50px;
+            background-color: lightseagreen;
+
+        }
+    </style>
+    
+
+    <div class="grand-parent">Grand Parent
+        <div class="parent"> Parent
+            <div class="child">Chid</div>
+        </div>
+    </div>
+
+
+    <script src="_0.1.event.js"></script>
+</body>
+</html>

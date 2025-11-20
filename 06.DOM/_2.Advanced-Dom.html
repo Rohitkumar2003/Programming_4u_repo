@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body {
+      background-color: rgb(36, 35, 35);
+      color: white;
+    }
+  </style>
+  
+  <div id="main-container">
+          <!-- 
+    <p class="third">Hey i am Paragraph Tag </p>
+
+    <p class="third">I am second Paragraph Tag </p>
+
+    <p id="third"> I am third Paragag raph T</p> -->
+
+    <div id="some"><p> First Para</p><p>second Para</p><h4> third H4 </h4></div></div>
+
+
+  <script >
+
+// Selected by Tag Name 
+const selectedInTagsName = document.getElementsByTagName('p');
+// console.log('All Tags in P ', selectedInTagsName);
+
+// Selected in Id
+const selectedInHeading = document.getElementById('main-container');
+// console.log('Selected in Id:', selectedInHeading)
+
+// Selected in ClassName 
+const selectedInClassName = document.getElementsByClassName('para');
+// console.log(`Selected in ClassName:`, selectedInClassName)
+
+// query Selector 
+const seletedInQuery = document.querySelector('#third')
+// console.log('selected in Query ', seletedInQuery)
+
+// query Selector All 
+const seletedInQuerySelectorAll = document.querySelectorAll('.third');
+// console.log(`QuerySelectorAll`, seletedInQuerySelectorAll)
+
+// const some = document.querySelector('#some')
+// console.log(some.firstChild)
+// console.log(some.lastChild)
+
+
+
+  </script>
+
+
+</body>
+</html>

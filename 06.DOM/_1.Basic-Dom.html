@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Dom </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(47, 45, 45);
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+     p {
+        /* align-items: center; */
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: white;
+     }
+    </style>
+
+    <div class="main">
+        <p></p>
+        
+        <button class="stopBtn">Stop</button>
+        <button class="waitBtn">Wait</button>
+        <button class="GoBtn">Go</button>
+    </div>
+
+      
+    
+    <script >
+
+const signal = document.querySelector('p');
+const stopButton = document.querySelector('.stopBtn');
+const waitButton = document.querySelector('.waitBtn');
+const GoButton = document.querySelector('.GoBtn');
+
+stopButton.addEventListener('click',()=>{
+    signal.style.backgroundColor = 'Red'
+    signal.style.border = '2px'
+})
+
+waitButton.addEventListener('click', ()=>{
+    signal.style.backgroundColor = 'Yellow'
+})
+
+GoButton.addEventListener('click', ()=>{
+    signal.style.backgroundColor = 'Green'
+})
+
+
+
+// confirm('Do you want to enable Wi-fi')
+    </script>
+</body>
+</html>

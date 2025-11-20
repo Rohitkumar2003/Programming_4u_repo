@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.container {
+  background-color: rgb(200, 199, 199);
+  max-width: 35rem;
+  /* width: 100%; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(205, 204, 204);
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 10px;
+}
+.add-container {
+    display: flex;
+    gap: 10px;
+}
+
+.add-container > input {
+    padding: 10px;
+    border: 1px solid rgb(106, 105, 105);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.add-container > button {
+    padding: 0 15px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    border: none;
+    transition: all linear 0.9s;
+    
+}
+.delete-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 6%;
+    border-radius: 3px;
+    background-color: rgb(194, 66, 31);
+    color: wheat;
+}
+
+
+
+.add-container > button:active {
+     scale: 0.9;
+}
+
+.list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-container  .list  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        background-color: aliceblue;
+        padding: 12px;
+        border-radius: 5px;
+        height: 30px;
+}
+
+.list-container .delete-button {
+    padding: 5px;
+    cursor: pointer;
+}
+

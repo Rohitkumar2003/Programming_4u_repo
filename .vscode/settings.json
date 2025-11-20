@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+    "liveServer.settings.multiRootWorkspaceName": "Programming-4U"
+}
