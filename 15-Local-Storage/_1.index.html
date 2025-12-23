@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage and Local Session </title>
+</head>
+<body style="background-color: rgb(30, 29, 29); color:white;">
+    
+    <h1 ">Local and Session Storage  </h1>
+
+    <script>
+
+            // localStorage
+
+             localStorage.setItem('Name', 'Rohit Kumar');
+            localStorage.getItem('name');
+
+
+            localStorage.removeItem('name');
+
+            localStorage.clear();
+
+            const arr = [1,2,3,4,4,5];
+
+            localStorage.setItem('arr', JSON.stringify(arr));
+            localStorage.getItem('arr');
+
+            JSON.parse(localStorage.getItem('arr'));
+
+            // session storage    
+
+            sessionStorage.setItem('userid', 'a09wd92j028302o8hdo98ur94m49z8496827z3872');
+
+            sessionStorage.getItem('userid');
+            
+
+
+
+    </script>
+
+</body>
+</html>
