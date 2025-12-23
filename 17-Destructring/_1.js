@@ -54,7 +54,7 @@
         console.log(a);
         console.log(r,s);
 
-// TODO: Destructring in Object with Basic Destructring 
+// TODO: 'Destructring' in Object with Basic Destructring 
         let obj = {
             name2:'Rohit',
             age2:23,
