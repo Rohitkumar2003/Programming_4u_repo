@@ -71,20 +71,7 @@ console.log(stduent_2)
 
 
 
-export const login = async  (req,res) => {
-        try {
-            const {name, email, password} = req.body
-            if(!name || !email || !password){
-                return res.status(401).json({
-                    success: false, message: 'All fields are requried'
-                })
 
-            }
-
-        }catch (err) {
-
-        }
-}
 
 
 
